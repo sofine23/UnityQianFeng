@@ -64,7 +64,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\FSMFrame\MonoHelper.cs" />
     <Compile Include="Assets\Scripts\FSMFrame\State.cs" />
+    <Compile Include="Assets\Scripts\FSMFrame\StateMachine.cs" />
+    <Compile Include="Assets\Test.cs" />
+    <Compile Include="Assets\UseFSM.cs" />
     <Reference Include="UnityEngine">
       <HintPath>D:/1programFiles/01-study/Unity2019.4.22/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
