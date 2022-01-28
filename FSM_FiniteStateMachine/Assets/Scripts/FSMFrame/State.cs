@@ -60,12 +60,21 @@ namespace FSM
 
         #region State Machine Event
 
-        public void A()
-        {
-        }
+        /// <summary>
+        /// 状态进入事件
+        /// </summary>
+        public event Action<object[]> OnStateEnter;
+
+        /// <summary>
+        /// 在状态中持续调用
+        /// </summary>
+        public event Action<object[]> OnStateUpdate;
+
+        /// <summary>
+        /// 状态离开事件
+        /// </summary>
+        public event Action<object[]> OnStateExit;
 
         #endregion State Machine Event
     }
-
-    public class
 }
