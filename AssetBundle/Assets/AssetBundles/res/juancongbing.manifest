@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 2043034670
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 46eb9b5580af91331a7206ed1ccbbb58
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 22357172b8cea85847937e8f62d0c077
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Res/Juancongbing.mat
+Dependencies:
+- D:/4workSpace_project/Unity2019/AssetBundle/Assets/AssetBundles/res/1

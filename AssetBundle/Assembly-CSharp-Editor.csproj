@@ -651,7 +651,12 @@
       <HintPath>D:/4workSpace_project/Unity2019/AssetBundle/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
-  <ItemGroup></ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{79E02D81-25C3-FD6F-A570-13F78C92895D}</Project>
+      <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

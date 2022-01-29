@@ -35,8 +35,10 @@ public class CreateAssetBundle
     public static void AutoBuild()
     {
         ClearAllBundleFilesName();
+        RemoveFile(outPutPath);
         SetAssetBundlesName(needBuildPath);
         BuildAllAssetBubdle();
+        AssetDatabase.Refresh();
     }
 
     /// <summary>
@@ -52,6 +54,20 @@ public class CreateAssetBundle
             AssetDatabase.RemoveAssetBundleName(allPathName[i], true);
         }
         Debug.Log("清空所有的Bundle名称【完成】");
+    }
+
+    /// <summary>
+    /// 清除output文件夹下的所有文件
+    /// </summary>
+    /// <param name="rootPath"></param>
+    private static void RemoveFile(string outputPath)
+    {
+        if (Directory.Exists(outputPath))
+        {
+            DirectoryInfo rootInfo = new DirectoryInfo(outputPath);
+            rootInfo.Delete(true);
+        }
+        Debug.Log("输出目录清除完毕");
     }
 
     /// <summary>

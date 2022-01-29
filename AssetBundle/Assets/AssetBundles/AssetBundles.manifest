@@ -1,10 +1,15 @@
 ManifestFileVersion: 0
-CRC: 3939806339
+CRC: 1020187987
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
       Name: res/1
       Dependencies: {}
     Info_1:
-      Name: res/blue
-      Dependencies: {}
+      Name: res/juancongbing
+      Dependencies:
+        Dependency_0: res/1
+    Info_2:
+      Name: res/model
+      Dependencies:
+        Dependency_0: res/juancongbing
