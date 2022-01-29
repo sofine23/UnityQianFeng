@@ -1,0 +1,10 @@
+ManifestFileVersion: 0
+CRC: 3939806339
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: res/1
+      Dependencies: {}
+    Info_1:
+      Name: res/blue
+      Dependencies: {}
